@@ -1,0 +1,10 @@
+universal-design-studio: Universal anti-slop UI skill for web and mobile. Reads the brief, declares a one-line Design Read, sets five named dial levels (CALM / CRISP / BALANCED / BOLD / WILD), builds token-first in a fixed order, then verifies with a mechanical lint pass (scripts/design-lint.mjs) and a render-and-inspect loop before shipping. Covers landing pages, dashboards, editorial, commerce, and mobile app screens, in any language including RTL (Arabic, Urdu, Hebrew, Persian) and CJK. Stack adapters: React/Next, single-file HTML, Astro/Vue/Svelte, WordPress, React Native, Flutter.
+
+# install: npx skills add <this-repo-url> --skill "universal-design-studio"
+# core:      skills/design-studio/SKILL.md
+# rules:     skills/design-studio/references/ (domains/, rules/, stacks/, design-systems.md)
+# examples:  skills/design-studio/examples/ (slop-vs-taste pairs)
+# blocks:    skills/design-studio/blocks/ (golden drop-in implementations)
+# lint:      node skills/design-studio/scripts/design-lint.mjs <files>
+# memory:    skills/design-studio/TASTE.template.md (copy to project root as TASTE.md)
+# evals:     skills/design-studio/evals/ (briefs.json + rubric.md)
