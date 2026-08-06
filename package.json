@@ -1,0 +1,52 @@
+{
+  "name": "design-studio",
+  "version": "1.0.0",
+  "description": "The definitive anti-slop design system for AI agents. Creates premium UIs that look hand-crafted by senior designers.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "node scripts/design-lint.mjs",
+    "test": "echo \"Tests coming soon\" && exit 0",
+    "validate": "node scripts/design-lint.mjs SKILL.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shayyanali29-wq/design-studio.git"
+  },
+  "keywords": [
+    "design-system",
+    "ai-design",
+    "anti-slop",
+    "ui-design",
+    "accessibility",
+    "i18n",
+    "rtl",
+    "design-tokens",
+    "agent-skills",
+    "cursor",
+    "claude",
+    "chatgpt",
+    "codex"
+  ],
+  "author": "shayyanali29-wq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shayyanali29-wq/design-studio/issues"
+  },
+  "homepage": "https://github.com/shayyanali29-wq/design-studio#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "SKILL.md",
+    "scripts/",
+    "research/",
+    "examples/",
+    "references/",
+    "README.md",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "LICENSE"
+  ],
+  "devDependencies": {}
+}
